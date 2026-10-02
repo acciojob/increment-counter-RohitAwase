@@ -1,5 +1,6 @@
-const count = document.queryselector("p").innerText
-	
-function counterFunc() {
-	return count +=1
-}
+const count = 0
+
+ document.getElementById("btn").addEventListener("click", function() {
+            count++;
+            document.getElementById("counter").textContent = count;
+        });
