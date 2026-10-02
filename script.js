@@ -1,6 +1,6 @@
 const count = 0
 
- document.getElementById("btn").addEventListener("click", function() {
+ document.getElementById("incrementBtn").addEventListener("click", function() {
             alert(count);
 	        count++;
             document.getElementById("counter").textContent = count;
