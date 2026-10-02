@@ -1,6 +1,7 @@
 const count = 0
-alert(count);
+
  document.getElementById("btn").addEventListener("click", function() {
-            count++;
+            alert(count);
+	        count++;
             document.getElementById("counter").textContent = count;
         });
